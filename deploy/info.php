@@ -26,9 +26,8 @@ $app['powered_by'] = array(
 /////////////////////////////////////////////////////////////////////////////
 
 $app['name'] = lang('miniupnpd_app_name');
-$app['category'] = lang('base_category_server');
-$app['subcategory'] = lang('base_subcategory_virtualization');
-$app['menu_enabled'] = FALSE;
+$app['category'] = lang('base_category_network');
+$app['subcategory'] = lang('base_subcategory_firewall');
 
 /////////////////////////////////////////////////////////////////////////////
 // Packaging
