@@ -1,13 +1,11 @@
 
 Name: app-miniupnpd
 Epoch: 1
-Version: 2.5.4
+Version: 0.9.0
 Release: 1%{dist}
 Summary: MiniUPnP
 License: GPLv3
 Group: ClearOS/Apps
-Packager: Nick Howitt
-Vendor: Nick Howitt
 Source: %{name}-%{version}.tar.gz
 Buildarch: noarch
 Requires: %{name}-core = 1:%{version}-%{release}

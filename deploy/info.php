@@ -5,10 +5,10 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'miniupnpd';
-$app['version'] = '2.5.4';
+$app['version'] = '0.9.0';
 $app['release'] = '1';
-$app['vendor'] = 'Nick Howitt';
-$app['packager'] = 'Nick Howitt';
+$app['vendor'] = 'ClearFoundation';
+$app['packager'] = 'ClearFoundation';
 $app['license'] = 'GPLv3';
 $app['license_core'] = 'LGPLv3';
 $app['description'] = lang('miniupnpd_app_description');
