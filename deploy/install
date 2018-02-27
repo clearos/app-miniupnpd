@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Set default start/boot
+#-----------------------
+
+logger -p local6.notice -t installer "app-miniupnpd-core - enabling MiniUPnP server"
+chkconfig miniupnpd on >/dev/null 2>&1
+
+logger -p local6.notice -t installer "app-miniupnpd-core - starting MiniUPnP server"
+service miniupnpd start >/dev/null 2>&1
