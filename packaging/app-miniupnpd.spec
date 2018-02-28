@@ -1,8 +1,8 @@
 
 Name: app-miniupnpd
-Epoch: 2
+Epoch: 1
 Version: 0.9.0
-Release: 1%{dist}
+Release: 2%{dist}
 Summary: MiniUPnP
 License: GPLv3
 Group: ClearOS/Apps
