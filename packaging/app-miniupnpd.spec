@@ -70,7 +70,7 @@ exit 0
 %defattr(-,root,root)
 /usr/clearos/apps/miniupnpd/controllers
 /usr/clearos/apps/miniupnpd/htdocs
-/usr/clearos/apps/miniupnpd/views
+#/usr/clearos/apps/miniupnpd/views
 
 %files core
 %defattr(-,root,root)
@@ -80,5 +80,5 @@ exit 0
 %dir /var/clearos/miniupnpd
 /usr/clearos/apps/miniupnpd/deploy
 /usr/clearos/apps/miniupnpd/language
-/usr/clearos/apps/miniupnpd/libraries
+#/usr/clearos/apps/miniupnpd/libraries
 /var/clearos/base/daemon/miniupnpd.php
