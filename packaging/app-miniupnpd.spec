@@ -13,7 +13,7 @@ Requires: app-base
 Requires: app-network
 
 %description
-MiniUPnP blah blah blah
+MiniUPnP provides the firewall with UPnP functionality
 
 %package core
 Summary: MiniUPnP - Core
@@ -24,7 +24,7 @@ Requires: app-network-core
 Requires: miniupnpd
 
 %description core
-MiniUPnP blah blah blah
+MiniUPnP provides the firewall with UPnP functionality
 
 This package provides the core API and libraries.
 
@@ -75,7 +75,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/miniupnpd/packaging
-%exclude /usr/clearos/apps/miniupnpd/unify.json
+#%exclude /usr/clearos/apps/miniupnpd/unify.json
 %dir /usr/clearos/apps/miniupnpd
 %dir /var/clearos/miniupnpd
 /usr/clearos/apps/miniupnpd/deploy
