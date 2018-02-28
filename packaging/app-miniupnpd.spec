@@ -1,6 +1,6 @@
 
 Name: app-miniupnpd
-Epoch: 1
+Epoch: 2
 Version: 0.9.0
 Release: 1%{dist}
 Summary: MiniUPnP
