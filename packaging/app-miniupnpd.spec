@@ -2,7 +2,7 @@
 Name: app-miniupnpd
 Epoch: 1
 Version: 0.9.0
-Release: 2%{dist}
+Release: 3%{dist}
 Summary: MiniUPnP
 License: GPLv3
 Group: ClearOS/Apps
@@ -21,7 +21,7 @@ License: LGPLv3
 Group: ClearOS/Libraries
 Requires: app-base-core
 Requires: app-network-core
-Requires: miniupnpd
+Requires: miniupnpd >= 2.0.20180203-3
 
 %description core
 MiniUPnP provides the firewall with UPnP functionality

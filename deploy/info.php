@@ -6,7 +6,7 @@
 
 $app['basename'] = 'miniupnpd';
 $app['version'] = '0.9.0';
-$app['release'] = '1';
+$app['release'] = '3';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
 $app['license'] = 'GPLv3';
